@@ -1,0 +1,20 @@
+import '../styles/globals.css';
+
+export const metadata = {
+  title: 'Flight Visualizer',
+  description: 'Visualize paragliding flight data',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
+}
